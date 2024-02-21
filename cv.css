@@ -1,0 +1,77 @@
+/* style.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar styles */
+.navbar:hover .nav-link {
+    background-color: rgb(250,173,64);
+    border-radius: 10px;
+}
+.navbar {
+    background-color: #343a40 !important;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+/* Header styles */
+header {
+    background-color: #343a40;
+    padding: 20px 0;
+}
+
+/* Main section styles */
+main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Section heading styles */
+h2 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+/* Section content styles */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styles */
+.img-fluid {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Footer link styles */
+footer a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
